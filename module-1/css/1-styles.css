@@ -1,0 +1,78 @@
+.module-1 {
+  padding-bottom: 150px;
+  padding-top: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-image: url("../images/19.jpg"); }
+  .module-1 .img-box {
+    position: relative;
+    width: 100%;
+    padding: 0 15px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #fff; }
+    .module-1 .img-box:hover .overlay-parallax {
+      top: 10%;
+      transition: all 0.3s ease-out 0s;
+      opacity: 1; }
+    .module-1 .img-box .img-people {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px; }
+    .module-1 .img-box .overlay-parallax {
+      position: absolute;
+      width: 80%;
+      height: 80%;
+      padding: 50px;
+      top: 530px;
+      left: 10%;
+      background-color: #fccb06;
+      opacity: 0;
+      text-align: left; }
+      .module-1 .img-box .overlay-parallax .h4-title {
+        color: #fff; }
+      .module-1 .img-box .overlay-parallax .sub-text {
+        color: #fff;
+        padding-bottom: 12px; }
+      .module-1 .img-box .overlay-parallax .content {
+        color: #fff; }
+      .module-1 .img-box .overlay-parallax .icon-pp {
+        width: 100%;
+        padding: 0px;
+        transition: all 0.3s ease-out 0s; }
+        .module-1 .img-box .overlay-parallax .icon-pp li {
+          list-style: none;
+          float: left;
+          width: 25%; }
+          .module-1 .img-box .overlay-parallax .icon-pp li .a {
+            font-size: 15px;
+            color: #fff;
+            line-height: 0px;
+            margin: 0px;
+            padding: 7px;
+            display: inline-block;
+            border-radius: 100%; }
+            .module-1 .img-box .overlay-parallax .icon-pp li .a1:hover {
+              color: #343a40 !important; }
+          .module-1 .img-box .overlay-parallax .icon-pp li .a2:hover {
+            color: #007bff !important; }
+        .module-1 .img-box .overlay-parallax .icon-pp li .a3:hover {
+          color: #28a745 !important; }
+      .module-1 .img-box .overlay-parallax .icon-pp li .a4:hover {
+        color: #6c757d !important; }
+  .module-1 .swiper-container {
+    width: 100%;
+    height: 100%; }
+  .module-1 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff; }
+  .module-1 .swiper-button-next::after, .module-1 .swiper-button-prev::after {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 15px;
+    border: 2px solid #dbdbdb;
+    border-radius: 100%; }

@@ -1,0 +1,33 @@
+.Module-9 {
+  background-image: url("../images/19-backgroud.png");
+  width: auto;
+  height: 530px;
+  background-size: cover;
+  background-position: 50% 50%;
+  text-align: center;
+  padding-top: 180px;
+  font-family: "Montserrat", sans-serif;
+  background-attachment: fixed; }
+  .Module-9 .business-title {
+    margin-bottom: 3px;
+    color: #fccb06;
+    font-weight: 400;
+    line-height: 40px;
+    font-size: 18px; }
+    .Module-9 .beatifull-menu .less-menu {
+      margin-bottom: 3px;
+      color: #fff;
+      padding-bottom: 40px;
+      font-weight: 600;
+      line-height: 50px;
+      font-size: 35px;
+      font-style: normal; }
+    .Module-9 .beatifull-menu .raleway-menu {
+      opacity: 0.7;
+      font-family: "Raleway", sans-serif;
+      width: 50%;
+      margin: 10px auto 0 auto;
+      color: #727272;
+      font-size: 16px;
+      line-height: 21px;
+      font-style: normal; }

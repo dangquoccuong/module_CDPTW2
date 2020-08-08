@@ -1,0 +1,124 @@
+.module-1 {
+  padding-bottom: 150px;
+  padding-top: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-image: url("../images/19.jpg");
+
+  .img-box {
+    position: relative;
+    width: 100%;
+    padding: 0 15px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #fff;
+
+    &:hover {
+      .overlay-parallax {
+        top: 10%;
+        transition: all 0.3s ease-out 0s;
+        opacity: 1;
+      }
+    }
+
+    .img-people {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .overlay-parallax {
+      position: absolute;
+      width: 80%;
+      height: 80%;
+      padding: 50px;
+      top: 530px;
+      left: 10%;
+      background-color: #fccb06;
+      opacity: 0;
+      text-align: left;
+
+      .h4-title {
+        color: #fff;
+      }
+
+      .sub-text {
+        color: #fff;
+        padding-bottom: 12px;
+      }
+
+      .content {
+        color: #fff;
+      }
+
+      .icon-pp {
+        width: 100%;
+        padding: 0px;
+        transition: all 0.3s ease-out 0s;
+
+        li {
+          list-style: none;
+          float: left;
+          width: 25%;
+          .a {
+            font-size: 15px;
+            color: #fff;
+            line-height: 0px;
+            margin: 0px;
+            padding: 7px;
+            display: inline-block;
+            border-radius: 100%;
+          }
+
+          .a1 {
+            &:hover {
+              color: #343a40 !important;
+            }
+          }
+
+          .a2 {
+            &:hover {
+              color: #007bff !important;
+            }
+          }
+
+          .a3 {
+            &:hover {
+              color: #28a745 !important;
+            }
+          }
+
+          .a4 {
+            &:hover {
+              color: #6c757d !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //Swiper
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  }
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 15px;
+    border: 2px solid #dbdbdb;
+    border-radius: 100%;
+  }
+}

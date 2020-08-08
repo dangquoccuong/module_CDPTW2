@@ -1,0 +1,95 @@
+.hm-3pp {
+  padding-top: 150px;
+  padding-right: 0px;
+  padding-bottom: 150px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background-image: url("../images/168-backgroud.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: 50% 50%; }
+  .hm-3pp .hm-col-12 .text-title-hm .h5-hm-title {
+    font-weight: 400;
+    line-height: 40px;
+    color: #888;
+    margin-bottom: 3px; }
+  .hm-3pp .hm-col-12 .text-title-hm .hm-h2-title-content {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 3px;
+    font-weight: 600;
+    line-height: 50px; }
+  .hm-3pp .hm-col-12 .text-title-hm .hm-title-line {
+    width: 12%;
+    height: 2px;
+    background-color: #fccb06;
+    margin: 15px auto 0 auto; }
+  .hm-3pp .hm-col-12 .empty-space-pp-hm {
+    height: 120px; }
+    .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm {
+      position: relative;
+      overflow: hidden; }
+      .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm:hover .img-hm-reponsive {
+        transform: scale(1.1);
+        transition: all 0.3s ease-out 0s; }
+      .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm:hover .person-information-hm {
+        background-color: #000 !important;
+        top: 350px !important;
+        transition: all 0.3s ease-out 0s; }
+        .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm:hover .person-information-hm .hm-person-name {
+          color: #fff !important; }
+        .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm:hover .person-information-hm .hm-person-designation {
+          color: #fff !important; }
+      .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm .persoon-img-hm {
+        margin-bottom: 0;
+        overflow: hidden; }
+        .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm .persoon-img-hm .img-hm-reponsive {
+          max-width: 100%;
+          height: auto; }
+      .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm .person-information-content-hm {
+        min-height: 260px; }
+        .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm .person-information-content-hm .person-information-hm {
+          position: absolute;
+          padding: 60px;
+          background-color: #fff; }
+          .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm .person-information-content-hm .person-information-hm .hm-person-name {
+            font-size: 18px;
+            line-height: 23px;
+            color: #000000; }
+          .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm .person-information-content-hm .person-information-hm .hm-person-designation {
+            margin-top: 0;
+            display: block;
+            font-size: 14px;
+            color: #fccb06; }
+          .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm .person-information-content-hm .person-information-hm .hm-person-introtext {
+            margin-top: 10px; }
+            .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm .person-information-content-hm .person-information-hm .hm-person-introtext .hm-line {
+              border-bottom: 1px solid #ebebeb;
+              transition: all 0.3s ease-out 0s; }
+            .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm .person-information-content-hm .person-information-hm .hm-person-introtext .p-hm-small-text {
+              color: #727272; }
+          .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm .person-information-content-hm .person-information-hm .hm-person-social-icon {
+            margin-top: 0;
+            padding: 30px 0 0 0; }
+            .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm .person-information-content-hm .person-information-hm .hm-person-social-icon .hm-icon-pp {
+              display: block;
+              list-style: none;
+              padding: 0;
+              margin: 0; }
+              .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm .person-information-content-hm .person-information-hm .hm-person-social-icon .hm-icon-pp li {
+                float: left;
+                width: 25%; }
+                .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm .person-information-content-hm .person-information-hm .hm-person-social-icon .hm-icon-pp li .a {
+                  font-size: 20px;
+                  color: #fff; }
+                  .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm .person-information-content-hm .person-information-hm .hm-person-social-icon .hm-icon-pp li .a1:hover {
+                    color: #343a40 !important; }
+                .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm .person-information-content-hm .person-information-hm .hm-person-social-icon .hm-icon-pp li .a2:hover {
+                  color: #007bff !important; }
+              .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm .person-information-content-hm .person-information-hm .hm-person-social-icon .hm-icon-pp li .a3:hover {
+                color: #28a745 !important; }
+            .hm-3pp .hm-col-12 .person-hm-inner .column-person-hm .person-information-content-hm .person-information-hm .hm-person-social-icon .hm-icon-pp li .a4:hover {
+              color: #6c757d !important; }
